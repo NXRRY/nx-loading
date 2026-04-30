@@ -65,13 +65,13 @@ const CONFIG = {
 
     /* ทีมงาน */
     staff: [
-        { name: 'Nat',         role: 'support', emoji: null, avatar: 'images/avata/benjamin.jpg', desc: 'ผู้สนับสนุนเงินแบบไม่หวังผลกำไร' },
-        { name: 'P',           role: 'owner',   emoji: null, avatar: 'images/avata/benjamin.jpg', desc: 'ผู้ก่อตั้งเซิร์ฟเวอร์ และ ดูแลด้าน gameplay' },
-        { name: 'Benjamin_1X', role: 'dev',     emoji: null, avatar: 'images/avata/benjamin.jpg', desc: 'นักพัฒนาระบบหลักของเซิร์ฟเวอร์' },
-        { name: 'Dodo',        role: 'dev',     emoji: null, avatar: 'images/avata/benjamin.jpg', desc: 'พัฒนา เสื้อผ้า' },
-        { name: 'perny',       role: 'admin',   emoji: null, avatar: 'images/avata/benjamin.jpg', desc: 'ผู้ดูแลระบบและช่วยเหลือผู้เล่น' },
-        { name: 'Linlian',     role: 'admin',   emoji: null, avatar: 'images/avata/benjamin.jpg', desc: 'ผู้ดูแลระบบและช่วยเหลือผู้เล่น' },
-    ],
+        { name: 'Nat',         role: 'support', emoji: null, avatar: 'images/avata/logo.png',   desc: 'ผู้สนับสนุนเงินแบบไม่หวังผลกำไร' },
+        { name: 'P',           role: 'owner',   emoji: null, avatar: 'images/avata/p.png',          desc: 'ผู้ก่อตั้งเซิร์ฟเวอร์ และ ดูแลด้าน gameplay' },
+        { name: 'Benjamin_1X', role: 'dev',     emoji: null, avatar: 'images/avata/benjamin.jpg',   desc: 'นักพัฒนาระบบหลักของเซิร์ฟเวอร์' },
+        { name: 'Gummy Pu Pu', role: 'dev',     emoji: null, avatar: 'images/avata/gummypupu.jpeg', desc: 'นักพัฒนาระบบของเสื้อผ้า' },
+        { name: 'perny',       role: 'admin',   emoji: null, avatar: 'images/avata/logo.png',   desc: 'ผู้ดูแลระบบและช่วยเหลือผู้เล่น' },
+        { name: 'Linlian',     role: 'admin',   emoji: null, avatar: 'images/avata/logo.png',   desc: 'ผู้ดูแลระบบและช่วยเหลือผู้เล่น' },
+    ],  
 
     roleNames: {
         owner:   'Developer Of Founder',
