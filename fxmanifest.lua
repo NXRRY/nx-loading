@@ -22,7 +22,7 @@ files {
     'html/css/style.css',
     'html/js/main.js',
 
-    -- รูปภาพ Slideshow หลัก + cover เพลง
+    -- รูปภาพ Slideshow หลัก
     'html/images/*.jpg',
     'html/images/*.jpeg',
     'html/images/*.png',
@@ -33,6 +33,14 @@ files {
     'html/images/avata/*.jpeg',
     'html/images/avata/*.png',
     'html/images/avata/*.webp',
+
+    -- รูป music
+    'html/images/music/*.jpg',
+    'html/images/music/*.jpeg',
+    'html/images/music/*.png',
+    'html/images/music/*.webp',
+    'html/images/music/*.avif',
+
 
     -- รูปแกลเลอรี่ (แบ่งตามหมวดหมู่)
     'html/images/gallery/events/*',
