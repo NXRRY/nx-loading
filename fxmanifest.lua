@@ -1,53 +1,50 @@
 -- ============================================================
 -- NX Loading Screen - fxmanifest.lua
--- ใช้งานกับ FiveM (cfx-server)
 -- ============================================================
 
 fx_version 'cerulean'
 game 'gta5'
 
-description 'NX LoadingScreen - Minimal Red Dark Theme'
+description 'NX LoadingScreen - Modern Glassmorphism'
 version '1.0.0'
-author 'NX Development'
+author 'NXRRY'
 
--- กำหนดไฟล์ HTML หลักสำหรับ Loading Screen
 loadscreen 'html/index.html'
-
--- เปิดใช้งาน Manual Shutdown (Loading Screen จะปิดเองเมื่อโหลดเสร็จ)
 loadscreen_manual_shutdown 'yes'
 
--- ระบุไฟล์ทั้งหมดที่ต้องใช้งาน
 files {
+    -- Core
     'html/index.html',
     'html/css/style.css',
     'html/js/main.js',
 
-    -- รูปภาพ Slideshow หลัก
+    -- รูปภาพหลัก (slides, logo, ฯลฯ)
+    'html/images/*.png',
     'html/images/*.jpg',
     'html/images/*.jpeg',
-    'html/images/*.png',
     'html/images/*.webp',
+    'html/images/*.avif',
 
-    -- รูป Avatar ทีมงาน
+    -- Avatar ทีมงาน
+    'html/images/avata/*.png',
     'html/images/avata/*.jpg',
     'html/images/avata/*.jpeg',
-    'html/images/avata/*.png',
     'html/images/avata/*.webp',
+    'html/images/avata/*.avif',
 
-    -- รูป music
-    'html/images/music/*.jpg',
-    'html/images/music/*.jpeg',
-    'html/images/music/*.png',
-    'html/images/music/*.webp',
-    'html/images/music/*.avif',
+    -- Cover ปกเพลง
+    'html/images/cover/*.png',
+    'html/images/cover/*.jpg',
+    'html/images/cover/*.jpeg',
+    'html/images/cover/*.webp',
+    'html/images/cover/*.avif',
 
-
-    -- รูปแกลเลอรี่ (แบ่งตามหมวดหมู่)
+    -- Gallery
     'html/images/gallery/events/*',
     'html/images/gallery/screenshots/*',
     'html/images/gallery/showcase/*',
 
-    -- เพลงพื้นหลัง (ใส่ไฟล์ .mp3 / .ogg ในโฟลเดอร์ html/music/)
+    -- เพลง
     'html/music/*.mp3',
     'html/music/*.ogg',
     'html/music/*.wav',
